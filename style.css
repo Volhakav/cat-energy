@@ -34,7 +34,6 @@ body{
     align-items: center;
     justify-content: space-between;
     padding-top: 69px;
-   
 }
 .header__logo{
     width: 50%;
@@ -79,7 +78,45 @@ body{
     opacity: .75;
 }
 
-
+.index__image{
+    position: absolute;
+    z-index: 3;
+    top: 142px;
+    left: 558px;
+}
+.header__texts{
+    padding-top: 20px;
+    padding-left: 190px;
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 400;  
+    letter-spacing: 0; 
+    color: black;
+}
+.intro__title{
+    font-size: 60px;
+    line-height: 60px;
+    max-width: 415px;
+ }
+ .intro__subtitle{ 
+    font-size: 20px;
+    line-height: 20px; 
+    letter-spacing: 0; 
+    text-transform: uppercase; 
+    
+ }
+ .add__program{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 0px;
+    width: 244px;
+    height: 54px;
+    background-color: #68B738;
+    color:#FFFFFF;
+    border: none;
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 400; 
+ }
 .intro{
     height: 100vh;
     
