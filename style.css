@@ -119,5 +119,69 @@ body{
  }
 .intro{
     height: 100vh;
+}
+.cat__slim{
+    position: absolute;
+    left: 110px;
+    top: 776px;
+    background-color: #F2F2F2; 
+    width: 570px;
+    height: 374px;
+    display: flex;
+    flex-direction: column; 
+    padding: 41px 0 0 52px;
     
+}
+.slim__header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.black__cat{
+    width: 100px;
+    height: 106px;
+    margin-right: 62px;
+}
+.slim__title{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 400;   
+    letter-spacing: 0; 
+    color: black;
+    margin: 0;
+}
+.slim__subtitle{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;  
+    letter-spacing: 0; 
+    color: black; 
+    max-width: 467px;
+}
+.slim__catalog {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+
+.slim__catalog::after {
+    content: "→";
+    margin-left: 15px;
+}
+.cat__fat{
+    position: absolute;
+    top: 776px;
+    left: 760px;
+    background-color: #F2F2F2; 
+    width: 570px;
+    height: 374px;
+    display: flex;
+    flex-direction: column; 
+    padding: 41px 0 0 52px;
 }
